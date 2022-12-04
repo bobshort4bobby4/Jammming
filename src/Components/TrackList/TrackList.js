@@ -10,7 +10,7 @@ class TrackList extends React.Component {
         return (
             <div className="TrackList">
                 {
-                    this.props.results.map( (result)=> {
+                    this.props.results.map( result => {
                         return <Track track={result} key={result.id} />
                     }
                     )
